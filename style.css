@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid black;
+}
+
+.row .col-10 {
+    margin: auto;
+    display: flex;
+}
+
+.row .col-10 .btn-dark {
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+}
+
+.row .col-10 .btn-dark:hover {
+    background-color: rgb(9, 50, 231);
+    color: white;
+}
